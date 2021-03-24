@@ -8,9 +8,11 @@
 
 .header-left-nav {
     color: black;
+    padding: 10px 10px 10px 0px;
 }
 .header-right-nav {
     color: black;
+    padding: 10px 10px 10px 0px;
 }
 
 #footer-nav-left {
