@@ -1,7 +1,26 @@
+#signin {
+    
+}
+
 .logo {
     padding: 175px 300px 25px 300px;
 }
 
+.header-left-nav {
+    color: black;
+}
+.header-right-nav {
+    color: black;
+}
+
 #footer-nav-left {
-    color: rgb(7, 6, 6);
+    color: black;
+}
+
+#search {
+    padding: 10px 100px 10px 100px;
+}
+
+#searchButtons {
+    padding: 10px 10px 100px 100px;
 }

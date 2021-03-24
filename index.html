@@ -1,19 +1,28 @@
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/> 
     <body>
         <header>
             <nav>
-                <a href="#about">About</a>
-                <a href="#store">Store</a>
-                <a class="right-side-nav" href="#gmail">Gmail</a>
-                <a class="right-side-nav" href="#images">Images</a>
-                <a id="signin" href="#signin">Sign In</a>
-                </a>
+                <div class="container-fluid">
+                <a class="header-left-nav" href="#about">About</a>
+                <a class="header-left-nav" href="#store">Store</a>
+                <a class="header-right-nav" href="#gmail">Gmail</a>
+                <a class="header-right-nav" href="#images">Images</a>
+                <button class="btn btn-default btn-primary">
+                <a class="header-right-nav" id="signin" href="#signin">Sign In</a>
+                </a></button>
+                </div>
             </nav>
         </header>
-        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
-        <button>I am a button that will eventually be a search bar</button>
-        
+        <img class="logo" class="img-responsive" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
+        <form action="">
+            <input type="search" id="search" method="get" />
+        </form>
+        <div id="searchButtons" class="container-fluid">
+            <button class="btn btn-default">Google Search</button>
+            <button class="btn btn-default">I'm Feeling Lucky</button>
+        </div>
         <footer>
             <nav>
                 <a id="footer-nav-left" href="#store">Advertising</a>
