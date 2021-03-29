@@ -1,9 +1,13 @@
 #signin {
-    
+    color: blanchedalmond;
 }
 
 .logo {
     padding: 175px 300px 25px 300px;
+}
+
+.searchBar {
+    padding: 1px 100px 1px 150px;
 }
 
 .header-left-nav {
@@ -27,8 +31,11 @@
 
 #search {
     padding: 10px 100px 10px 100px;
+    display: flex;
+    margin: auto;
 }
 
-#searchButtons {
-    padding: 10px 10px 100px 100px;
+.searchButtons {
+    padding: 10px 10px 100px 300px;
+    margin-block: block;
 }
